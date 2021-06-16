@@ -50,7 +50,6 @@ function writePassword() {
         passwordString += combined.charAt(Math.floor(Math.random() * combined.length))
       }
     }
-    //validation if the string contains all the needed things
     buildPassword();
     //returning the password
     return (passwordString)
